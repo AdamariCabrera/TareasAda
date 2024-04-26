@@ -11,7 +11,7 @@ void setup (){
   fuente2 = createFont ("Century Gothic",20);
   fuente1 =  createFont ("Century Gothic",15);
   
-
+frameRate (30);
   
 }
 
@@ -20,8 +20,8 @@ void draw(){
  background (238, 130, 238);
  
   PImage img; 
-  img = loadImage("../assets/quioscoo.jpg");
-  image(img, 50,50);
+  img = loadImage("../assets/quiscoo.jpg");
+  image(img, 20, 10);
   
   
  
